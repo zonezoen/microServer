@@ -37,4 +37,4 @@ pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
 print("Starting thrift server in python...")
 server.serve()
-print("done!")
+
